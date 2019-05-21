@@ -18,7 +18,7 @@
     - Create a directory "data" in:
         -  C:\ *or* C:\Program Files\MongoDB
     - inside that "data" directory create one more named "db"
-    - So, this C:\data\db or C:\Program Files\MongoDB\data\db is the local storage where all your database files will be stored.
+    - So, this "C:\data\db" or "C:\Program Files\MongoDB\data\db" is the local storage where all your database files will be stored.
 
 - _Access_:
     - Default when you install on local machine, the localhost (127.0.0.1) is the bindIp for MongoDB
