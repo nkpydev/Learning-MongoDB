@@ -24,7 +24,21 @@
     - Default when you install on local machine, the localhost (127.0.0.1) is the bindIp for MongoDB
     - If you want the MongoDB Server on you local host to be accessed from remote machine, you will have to do some configuration changes on both:
         - your local machine firewall settings
-        - your MongoDB listener (mongod.exe) settings
+            - Run this on PowerShell:
+            ```shell
+            New-NetFirewallRule `
+            -DisplayName "Allow MongoDB" `
+            -Direction Inbound `
+            -Protocol TCP `
+            -LocalPort 27017 `
+            -Action Allow
+            ```
+        - your MongoDB listener (mongod.exe) settings, rather change in "mongod.conf" file:
+            ```cmd
+            net:
+                port: 27017
+                binfIp: [127.0.0.1,10.0.0.4,x.x.x.x,..]
+            ```
 
 
 
