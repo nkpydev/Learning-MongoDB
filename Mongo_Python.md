@@ -19,3 +19,8 @@ from pymongo import MongoClient
 
 client = MongoClient('mongodb://%s:%s@127.0.0.1:3129' %(username, password))
 ```
+
+### Further Details:
+| Topic | Link |
+| --- | --- |
+|Authentication|[Details]()|
