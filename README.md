@@ -17,9 +17,9 @@ MongoDB is No-SQL Database. That means non-relational database - which provides 
 
 | Topic | Link |
 |---|---|
-| **Setup on Local Windows Machine** | [Setup](https://github.com/nkpydev/Learning-MongoDB/blob/master/Mongo_Install_Windows.md)|
-| **Getting Started with Python + MongoDB** | [Python](https://github.com/nkpydev/Learning-MongoDB/blob/master/Mongo_Python.md)|
-| **CRUD Operations** |[CRUD](https://github.com/nkpydev/Learning-MongoDB/blob/master/Mongo_CRUD.md)|
+| **Setup on Local Windows Machine** | [Setup](https://github.com/nkpydev/Learning-MongoDB/blob/master/notes/Mongo_Install_Windows.md)|
+| **Getting Started with Python + MongoDB** | [Python](https://github.com/nkpydev/Learning-MongoDB/blob/master/notes/Mongo_Python.md)|
+| **CRUD Operations** |[CRUD](https://github.com/nkpydev/Learning-MongoDB/blob/master/notes/Mongo_CRUD.md)|
 
 
 
