@@ -13,6 +13,6 @@ import urllib.parse
 
 username = urllib.parser.quote_plus('user')
 password = urllib.parse.quote_plus('password')
-client = MongoClient('mongodb://%s:%s@127.0.0.1' %(yusername, password))
+client = MongoClient('mongodb://%s:%s@127.0.0.1' %(username, password))
 ```
 
