@@ -22,6 +22,10 @@ __Note: Ref: https://www.mongodb.com/what-is-mongodb__
 
 
 # Next ?
-- **[Setup on Local Windows Machine](https://github.com/nkpydev/Learning-MongoDB/blob/master/Mongo_Install_Windows.md)**
-- **[Getting Started with Python + MongoDB](https://github.com/nkpydev/Learning-MongoDB/blob/master/Mongo_Python.md)**
-- **[CRUD Operations](https://github.com/nkpydev/Learning-MongoDB/blob/master/Mongo_CRUD.md)**
+
+
+| Topic | Link |
+|---|---|
+| **Setup on Local Windows Machine** | [here](https://github.com/nkpydev/Learning-MongoDB/blob/master/Mongo_Install_Windows.md)|
+| **Getting Started with Python + MongoDB** | [here](https://github.com/nkpydev/Learning-MongoDB/blob/master/Mongo_Python.md)|
+| **CRUD Operations** |[here](https://github.com/nkpydev/Learning-MongoDB/blob/master/Mongo_CRUD.md)|
