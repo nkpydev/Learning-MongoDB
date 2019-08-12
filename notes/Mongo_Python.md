@@ -24,4 +24,4 @@ client = MongoClient('mongodb://%s:%s@127.0.0.1:3129' %(username, password))
 | Topic | Link |
 | --- | --- |
 |Authentication|[Details]|
-| Concepts | [Details](https://github.com/nkpydev/Learning-MongoDB/blob/master/MongoDB_Concepts.md)|
+| Concepts | [Details](https://github.com/nkpydev/Learning-MongoDB/blob/master/notes/MongoDB_Concepts.md)|
