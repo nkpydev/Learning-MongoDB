@@ -56,7 +56,7 @@ MongoDB is No-SQL Database. That means non-relational database - which provides 
 
 
 ## MongoDB Features:
-__Note: Reference: https://www.mongodb.com/what-is-mongodb__
+__Note: Ref: https://www.mongodb.com/what-is-mongodb__
 
 - MongoDB **stores data in flexible, JSON-like documents**, meaning fields can vary from document to document and data structure can be changed over time.
 - The document model **maps to the objects in your application code**, making data easy to work with.
