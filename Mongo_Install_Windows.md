@@ -37,6 +37,3 @@
                 port: 27017
                 bindIp: [127.0.0.1,10.0.0.4,x.x.x.x,..]
             ```
-
-## Next?
-- **[CRUD Operations](https://github.com/nkpydev/Learning-MongoDB/blob/master/Mongo_CRUD.md)**
