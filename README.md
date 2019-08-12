@@ -53,3 +53,13 @@ MongoDB is No-SQL Database. That means non-relational database - which provides 
 - Organizations now use more open software technologies, commodity servers and cloud computing instead of large monolithic servers and storage infrastructures.
 
 > Relational databases were not designed to be capable of such scale and agility challanges, nor are built to take advantage of commodity storage and processing power avaialble today.
+
+
+## MongoDB Features:
+__Note: Reference: https://www.mongodb.com/what-is-mongodb__
+
+- MongoDB **stores data in flexible, JSON-like documents**, meaning fields can vary from document to document and data structure can be changed over time.
+- The document model **maps to the objects in your application code**, making data easy to work with.
+- **Ad hoc queries, indexing and real time aggregation** provide powerful ways to access and analyze your data.
+- MongoDB is a **distributed database at its core**, so high availability, horizontal scaling and geographic distribution are built in and easy to use.
+- MongoDB is **free to use**.
