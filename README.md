@@ -44,7 +44,7 @@
 
 ## MongoDB Introduction
 
-MongoDB is No-SQL Database. That means non-relational database - which provides a mechanism of storage and retrival of data records that is not modeled on tabular relations, as used in traditional relational databases.
+MongoDB is No-SQL Database. That means non-relational database - which provides a mechanism of storage and retrival of data records that are not modeled on tabular relations, as used in traditional relational databases.
 
 ### Why No-SQL, reasons:
 - Many new applications require to create huge volumes of new, custom data types which are mix of structured, semi-structured, unstructured and polymorphic data.
