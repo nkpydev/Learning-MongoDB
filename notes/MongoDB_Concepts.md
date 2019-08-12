@@ -36,12 +36,12 @@
 
 The GUI for MongoDB, to visually explore your data.
 
-![MongoDB - Compass](MongoDB_Compass.jpg)
+![MongoDB - Compass](/assets/MongoDB_Compass.jpg)
 
 You can view the Databases and their Collections thr' the Compass GUI.
 
-![MongoDB - Compass Connected](MongoDB_Compass_Connected.jpg)
+![MongoDB - Compass Connected](/assets/MongoDB_Compass_Connected.jpg)
 
 View of Document inside a Collection thr' Compass.
 
-![MongoDB - Compass Document inside the Collection](MongoDB_Compass_Collection_Document.jpg)
+![MongoDB - Compass Document inside the Collection](/assets/MongoDB_Compass_Collection_Document.jpg)
