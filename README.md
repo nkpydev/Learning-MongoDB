@@ -48,7 +48,7 @@ MongoDB is No-SQL Database. That means non-relational database - which provides 
 
 ### Why No-SQL, reasons:
 - Many new applications require to create huge volumes of new, custom data types which are mix of structured, semi-structured, unstructured and polymorphic data.
-- Application development has changed from **Waterfall Model**(which takes long production times - typically 12-18 months) to new rapid faster methods like Agile Sprints, iterating quickly and pushing code every week or two.
+- Application development has changed from **Waterfall Model** (which takes long production times - typically 12-18 months) to new rapid faster methods like Agile Sprints, iterating quickly and pushing code every week or two.
 - Purpose of applications has now changed from being targeted at some fraction of users to Service that has to be always up and running(very less downtime.. virtually none); globally accessible to millions of users.
 - Organizations now use more open software technologies, commodity servers and cloud computing instead of large monolithic servers and storage infrastructures.
 
