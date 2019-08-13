@@ -73,6 +73,7 @@ switched to db admin
 _Note:_ If the database "admin" is not present, MongoDB will automatically create one.
 
 Here once you are into admin database, you need to create user Administrator
+
 | Attribute | Value |
 | --- | --- |
 | database | admin |
