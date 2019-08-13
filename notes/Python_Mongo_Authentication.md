@@ -34,6 +34,20 @@ client = MongoClient('exmaple.com',
 or the MongoDB URI method:
 
 ```python
-uri = "mongodb://user:password@example.com/?authSource=the_database&authMechanism=SCRAM-SHA-256"
-client = MongoClient(uri)
+URI = "mongodb://user:password@example.com/?authSource=the_database&authMechanism=SCRAM-SHA-256"
+client = MongoClient(URI)
 ```
+
+### Default Authentication Mechanism
+
+If no mechanism is specified, PyMongo automatically uses SCRAM-SHA-256 when connected to MongoDB 4.0+
+
+You have to specify the Default Database and authentication database in the URI; like:
+```python
+URI = "mongodb://user:password@example.com/default_db?authSource=admin"
+client = MongoClient(URI)
+```
+Here you have to note that: 
+    - PyMongo will authenticate on the "admin" database.
+    - But, the operations will be considered for database "default_db"
+    
