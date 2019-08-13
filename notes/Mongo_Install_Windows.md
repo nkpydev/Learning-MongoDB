@@ -83,7 +83,7 @@ Here once you are into admin database, you need to create user Administrator
 | roles | [{role: privilege, db: database}]
 
 
-```shell
+```python
 db.createUser(
     {
         user: "myUserAdmin",
@@ -108,3 +108,40 @@ mongod --port 27017 -u "myUserAdmin" -p "abc123" --authenticationDatabase "admin
 ```
 
 _Note_: userAdministrator user has only permission to create and manage the database users, you cannot read, write using this user. MongoDB will throw an error on trying this.
+
+
+### Create normal Read/Write Users
+
+First lets create a new Database - "testdb"
+
+```shell
+use testdb
+```
+
+Then create an user for this Database - "normalUser"
+
+```python
+db.createuser(
+    {
+        user: "normalUser",
+        pwd: "abc#123",
+        roles: [
+            {
+                role: "readWrite",
+                db: "testdb"
+            }
+        ]
+    }
+)
+```
+
+Now we can login using this user in MongoURI, like this:
+
+```python
+
+from pymongo import MongoClient
+
+URI = "mongodb://normalUser:abc#123@127.0.0.1:27017/testdb"
+client = MongoClient(URI)
+db = client.testdb
+```
